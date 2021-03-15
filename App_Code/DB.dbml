@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="parqueo" Class="DBDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="WebSettings" ConnectionString="Data Source=.\SQLEXPRESS;Initial Catalog=parqueo;Integrated Security=True" SettingsObjectName="System.Configuration.ConfigurationManager.ConnectionStrings" SettingsPropertyName="parqueoConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.EnParqueo" Member="EnParqueos">
+    <Type Name="EnParqueo">
+      <Column Name="idParqueo" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="idRegistro" Type="System.Int32" DbType="Int" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Operadores" Member="Operadores">
+    <Type Name="Operadore">
+      <Column Name="idOperador" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="nombre" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="apellidos" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="usuario" Type="System.String" DbType="NVarChar(50) NOT NULL" CanBeNull="false" />
+      <Column Name="contraseña" Type="System.String" DbType="NVarChar(50)" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.Registro" Member="Registros">
+    <Type Name="Registro">
+      <Column Name="idRegistro" Type="System.Int32" DbType="Int NOT NULL IDENTITY" IsPrimaryKey="true" IsDbGenerated="true" CanBeNull="false" />
+      <Column Name="placa" Type="System.String" DbType="NVarChar(25)" CanBeNull="true" />
+      <Column Name="fechaEntrada" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="fechaSalida" Type="System.DateTime" DbType="DateTime" CanBeNull="true" />
+      <Column Name="tarifa" Type="System.Decimal" DbType="Money" CanBeNull="true" />
+    </Type>
+  </Table>
+</Database>

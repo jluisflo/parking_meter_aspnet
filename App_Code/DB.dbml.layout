@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ordesignerObjectsDiagram dslVersion="1.0.0.0" absoluteBounds="0, 0, 11, 8.5" name="DB">
+  <DataContextMoniker Name="/DBDataContext" />
+  <nestedChildShapes>
+    <classShape Id="70e3cb34-35c7-49e1-ad69-5a5ae5128ef8" absoluteBounds="0.75, 0.75, 2, 1.1939925130208335">
+      <DataClassMoniker Name="/DBDataContext/EnParqueo" />
+      <nestedChildShapes>
+        <elementListCompartment Id="daf5bbf3-b08c-4bf3-a77c-de991b7ad2b8" absoluteBounds="0.765, 1.21, 1.9700000000000002, 0.63399251302083326" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="19009291-40d4-4b44-9ec3-5a9f896203e8" absoluteBounds="0.75, 2.75, 2, 1.7708968098958327">
+      <DataClassMoniker Name="/DBDataContext/Operadore" />
+      <nestedChildShapes>
+        <elementListCompartment Id="a1fabbb9-1485-48c9-ba62-cddd4edf8f51" absoluteBounds="0.765, 3.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+    <classShape Id="fae40216-e9f1-487d-8c83-adad4d825f74" absoluteBounds="3.75, 0.75, 2, 1.7708968098958331">
+      <DataClassMoniker Name="/DBDataContext/Registro" />
+      <nestedChildShapes>
+        <elementListCompartment Id="b9f2159f-365a-449b-a0bc-5e61b4569c06" absoluteBounds="3.765, 1.21, 1.9700000000000002, 1.2108968098958333" name="DataPropertiesCompartment" titleTextColor="Black" itemTextColor="Black" />
+      </nestedChildShapes>
+    </classShape>
+  </nestedChildShapes>
+</ordesignerObjectsDiagram>
